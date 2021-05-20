@@ -1,6 +1,6 @@
 # humidity_webfrontend
 
-This is the Web Frontend of the Humidity Project, which can present the temperature and humidity data in a somewhat nice fashion. It works in combination with [humidity_server](https://github.com/mschrey/humidity_server) and [humidity_sensor](https://github.com/mschrey/humidity_sensor)
+This is the Web Frontend of the Humidity Project, which can present the temperature and humidity data in a somewhat nice fashion. It works in combination with [humidity_server](https://github.com/mschrey/humidity_server) and [humidity_sensor](https://github.com/mschrey/humidity_sensor).
 
 It requires Apache2, MySQL and PHP to be installed. Furthermore, it uses [JpGraph](https://jpgraph.net/) to generate nice-looking gauges. 
 
