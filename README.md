@@ -15,4 +15,4 @@ Then create a symbolic link using
 
 Adjust php variables $servername, $username, $password and $dbname ([humidity_inc.php](https://github.com/mschrey/humidity_webfrontend/blob/21160d7df1603d1075cd1e4227478f9c7bbd6efd/humidity_inc.php#L32), lines 32ff) to your needs. While the user and password specified here needs to exist within MySQL, it only needs SELECT permissions. (This is in contrast to "user" and "password" from [database.c](https://github.com/mschrey/humidity_server/blob/main/database.c), who needs INSERT permissions. 
 
-Furthermore, you might want to adjust the mapping of Sensor node ID to location name in variable $id2room. 
+Furthermore, you might want to adjust the mapping of Sensor node ID to location name in variable [$id2room](https://github.com/mschrey/humidity_webfrontend/blob/21160d7df1603d1075cd1e4227478f9c7bbd6efd/humidity_inc.php#L17). 
